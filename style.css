@@ -124,3 +124,30 @@
     font-weight: 500;
     line-height: normal;
 }
+
+.watch {
+    background-image: url('images/watch.png');
+    margin: 0 auto;
+    margin-bottom: 130px;
+    width: 1140px;
+    height: 300px;
+    flex-shrink: 0;
+}
+.watch .txt{
+    width: 460px;
+    padding: 20px 0 0 65px;
+}
+
+.watch h2 {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.watch .btn {
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FFF;
+}
