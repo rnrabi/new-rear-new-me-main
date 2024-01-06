@@ -126,14 +126,16 @@
 }
 
 .watch {
-    background-image: url('images/watch.png');
+    background-image: url('images/watch.png'), url('images/gradient2.png');
+    background-blend-mode: lighten;
     margin: 0 auto;
     margin-bottom: 130px;
     width: 1140px;
     height: 300px;
     flex-shrink: 0;
 }
-.watch .txt{
+
+.watch .txt {
     width: 460px;
     padding: 20px 0 0 65px;
 }
@@ -150,4 +152,9 @@
     height: 64px;
     border-radius: 5px;
     background: #FFF;
+    color: #F15B22;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
 }
