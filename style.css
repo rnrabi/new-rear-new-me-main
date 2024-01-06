@@ -86,7 +86,41 @@
     list-style-type: none;
 }
 
-.fa-check{
-   color:#16D887; 
+.fa-check {
+    color: #16D887;
 }
 
+.projects {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+.my-plan {
+    text-align: center;
+    color: #151414;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 50px;
+}
+
+.single-project h2 {
+    color: #151414;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.single-project p {
+    color: #737272;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: normal;
+}
